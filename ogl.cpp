@@ -84,7 +84,7 @@ void setShaders() {
 	glShaderSource(f, 1, &ff,NULL);
 	glShaderSource(f2, 1, &ff2,NULL);
 
-	free(vs);free(fs);
+	free(vs);free(fs);free(fs2);
 
 	glCompileShader(v);
 	glCompileShader(f);
