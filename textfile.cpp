@@ -15,13 +15,13 @@
 #include <string.h>
 
 
-char *textFileRead(char *fn) {
+char *textFileRead(const char *fn) {
 
 
 	FILE *fp;
 	char *content = NULL;
 
-	int count=0;
+	long count=0;
 
 	if (fn != NULL) {
 		fp = fopen(fn,"rt");
