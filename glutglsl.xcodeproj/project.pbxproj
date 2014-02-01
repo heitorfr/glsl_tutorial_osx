@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC54A1E7189D150900FEA8F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1E6189D150900FEA8F2 /* main.cpp */; };
-		EC54A1E9189D150900FEA8F2 /* glutglsl.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A1E8189D150900FEA8F2 /* glutglsl.1 */; };
+		EC54A1F7189D153A00FEA8F2 /* ogl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F1189D153A00FEA8F2 /* ogl.cpp */; };
+		EC54A1F8189D153A00FEA8F2 /* textfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F2189D153A00FEA8F2 /* textfile.cpp */; };
+		EC54A1F9189D153A00FEA8F2 /* toon.frag in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F4189D153A00FEA8F2 /* toon.frag */; };
+		EC54A1FA189D153A00FEA8F2 /* toon.vert in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F5189D153A00FEA8F2 /* toon.vert */; };
+		EC54A1FB189D153A00FEA8F2 /* toon2.frag in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F6189D153A00FEA8F2 /* toon2.frag */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +21,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				EC54A1E9189D150900FEA8F2 /* glutglsl.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -26,8 +28,14 @@
 
 /* Begin PBXFileReference section */
 		EC54A1E3189D150900FEA8F2 /* glutglsl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = glutglsl; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC54A1E6189D150900FEA8F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		EC54A1E8189D150900FEA8F2 /* glutglsl.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = glutglsl.1; sourceTree = "<group>"; };
+		EC54A1EF189D153A00FEA8F2 /* glutglsl.dsp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glutglsl.dsp; sourceTree = "<group>"; };
+		EC54A1F0189D153A00FEA8F2 /* glutglsl.dsw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glutglsl.dsw; sourceTree = "<group>"; };
+		EC54A1F1189D153A00FEA8F2 /* ogl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ogl.cpp; sourceTree = "<group>"; };
+		EC54A1F2189D153A00FEA8F2 /* textfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = textfile.cpp; sourceTree = "<group>"; };
+		EC54A1F3189D153A00FEA8F2 /* textfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textfile.h; sourceTree = "<group>"; };
+		EC54A1F4189D153A00FEA8F2 /* toon.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = toon.frag; sourceTree = "<group>"; };
+		EC54A1F5189D153A00FEA8F2 /* toon.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = toon.vert; sourceTree = "<group>"; };
+		EC54A1F6189D153A00FEA8F2 /* toon2.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = toon2.frag; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +52,14 @@
 		EC54A1DA189D150900FEA8F2 = {
 			isa = PBXGroup;
 			children = (
-				EC54A1E5189D150900FEA8F2 /* glutglsl */,
+				EC54A1EF189D153A00FEA8F2 /* glutglsl.dsp */,
+				EC54A1F0189D153A00FEA8F2 /* glutglsl.dsw */,
+				EC54A1F1189D153A00FEA8F2 /* ogl.cpp */,
+				EC54A1F2189D153A00FEA8F2 /* textfile.cpp */,
+				EC54A1F3189D153A00FEA8F2 /* textfile.h */,
+				EC54A1F4189D153A00FEA8F2 /* toon.frag */,
+				EC54A1F5189D153A00FEA8F2 /* toon.vert */,
+				EC54A1F6189D153A00FEA8F2 /* toon2.frag */,
 				EC54A1E4189D150900FEA8F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,15 +70,6 @@
 				EC54A1E3189D150900FEA8F2 /* glutglsl */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EC54A1E5189D150900FEA8F2 /* glutglsl */ = {
-			isa = PBXGroup;
-			children = (
-				EC54A1E6189D150900FEA8F2 /* main.cpp */,
-				EC54A1E8189D150900FEA8F2 /* glutglsl.1 */,
-			);
-			path = glutglsl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +123,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC54A1E7189D150900FEA8F2 /* main.cpp in Sources */,
+				EC54A1F8189D153A00FEA8F2 /* textfile.cpp in Sources */,
+				EC54A1F7189D153A00FEA8F2 /* ogl.cpp in Sources */,
+				EC54A1FA189D153A00FEA8F2 /* toon.vert in Sources */,
+				EC54A1FB189D153A00FEA8F2 /* toon2.frag in Sources */,
+				EC54A1F9189D153A00FEA8F2 /* toon.frag in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
