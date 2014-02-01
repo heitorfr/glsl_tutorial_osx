@@ -15,6 +15,16 @@
 		EC54A203189D179E00FEA8F2 /* toon.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A1F5189D153A00FEA8F2 /* toon.vert */; };
 		EC54A204189D179E00FEA8F2 /* toon2.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A1F6189D153A00FEA8F2 /* toon2.frag */; };
 		EC54A208189D1D8600FEA8F2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A207189D1D8600FEA8F2 /* libGLEW.a */; };
+		EC54A20B189D2DB100FEA8F2 /* textfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F2189D153A00FEA8F2 /* textfile.cpp */; };
+		EC54A20E189D2DB100FEA8F2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FE189D174100FEA8F2 /* OpenGL.framework */; };
+		EC54A20F189D2DB100FEA8F2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FC189D166700FEA8F2 /* GLUT.framework */; };
+		EC54A210189D2DB100FEA8F2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A207189D1D8600FEA8F2 /* libGLEW.a */; };
+		EC54A213189D2DB100FEA8F2 /* toon.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A1F5189D153A00FEA8F2 /* toon.vert */; };
+		EC54A21B189D2DFB00FEA8F2 /* ogl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A219189D2DFB00FEA8F2 /* ogl3.cpp */; };
+		EC54A21D189D2E4800FEA8F2 /* toon3.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A21A189D2DFB00FEA8F2 /* toon3.frag */; };
+		EC54A21E189D2EC100FEA8F2 /* toon2.frag in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F6189D153A00FEA8F2 /* toon2.frag */; };
+		EC54A21F189D2EC600FEA8F2 /* toon.vert in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F5189D153A00FEA8F2 /* toon.vert */; };
+		EC54A220189D2ECE00FEA8F2 /* toon.frag in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F4189D153A00FEA8F2 /* toon.frag */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +37,17 @@
 				EC54A202189D179E00FEA8F2 /* toon.frag in CopyFiles */,
 				EC54A203189D179E00FEA8F2 /* toon.vert in CopyFiles */,
 				EC54A204189D179E00FEA8F2 /* toon2.frag in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A211189D2DB100FEA8F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				EC54A21D189D2E4800FEA8F2 /* toon3.frag in CopyFiles */,
+				EC54A213189D2DB100FEA8F2 /* toon.vert in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +64,9 @@
 		EC54A1FC189D166700FEA8F2 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		EC54A1FE189D174100FEA8F2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		EC54A207189D1D8600FEA8F2 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../../../../../usr/local/lib/libGLEW.a; sourceTree = "<group>"; };
+		EC54A218189D2DB100FEA8F2 /* ogl3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ogl3; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A219189D2DFB00FEA8F2 /* ogl3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ogl3.cpp; sourceTree = "<group>"; };
+		EC54A21A189D2DFB00FEA8F2 /* toon3.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = toon3.frag; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC54A20D189D2DB100FEA8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A20E189D2DB100FEA8F2 /* OpenGL.framework in Frameworks */,
+				EC54A20F189D2DB100FEA8F2 /* GLUT.framework in Frameworks */,
+				EC54A210189D2DB100FEA8F2 /* libGLEW.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,11 +100,13 @@
 				EC54A1FE189D174100FEA8F2 /* OpenGL.framework */,
 				EC54A1FC189D166700FEA8F2 /* GLUT.framework */,
 				EC54A1F1189D153A00FEA8F2 /* ogl.cpp */,
+				EC54A219189D2DFB00FEA8F2 /* ogl3.cpp */,
 				EC54A1F2189D153A00FEA8F2 /* textfile.cpp */,
 				EC54A1F3189D153A00FEA8F2 /* textfile.h */,
 				EC54A1F4189D153A00FEA8F2 /* toon.frag */,
 				EC54A1F5189D153A00FEA8F2 /* toon.vert */,
 				EC54A1F6189D153A00FEA8F2 /* toon2.frag */,
+				EC54A21A189D2DFB00FEA8F2 /* toon3.frag */,
 				EC54A1E4189D150900FEA8F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				EC54A1E3189D150900FEA8F2 /* glutglsl */,
+				EC54A218189D2DB100FEA8F2 /* ogl3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC54A1E2189D150900FEA8F2 /* glutglsl */ = {
+		EC54A1E2189D150900FEA8F2 /* ogl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC54A1EC189D150900FEA8F2 /* Build configuration list for PBXNativeTarget "glutglsl" */;
+			buildConfigurationList = EC54A1EC189D150900FEA8F2 /* Build configuration list for PBXNativeTarget "ogl" */;
 			buildPhases = (
 				EC54A1DF189D150900FEA8F2 /* Sources */,
 				EC54A1E0189D150900FEA8F2 /* Frameworks */,
@@ -98,9 +135,26 @@
 			);
 			dependencies = (
 			);
-			name = glutglsl;
+			name = ogl;
 			productName = glutglsl;
 			productReference = EC54A1E3189D150900FEA8F2 /* glutglsl */;
+			productType = "com.apple.product-type.tool";
+		};
+		EC54A209189D2DB100FEA8F2 /* ogl3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC54A215189D2DB100FEA8F2 /* Build configuration list for PBXNativeTarget "ogl3" */;
+			buildPhases = (
+				EC54A20A189D2DB100FEA8F2 /* Sources */,
+				EC54A20D189D2DB100FEA8F2 /* Frameworks */,
+				EC54A211189D2DB100FEA8F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ogl3;
+			productName = glutglsl;
+			productReference = EC54A218189D2DB100FEA8F2 /* ogl3 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +178,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC54A1E2189D150900FEA8F2 /* glutglsl */,
+				EC54A1E2189D150900FEA8F2 /* ogl */,
+				EC54A209189D2DB100FEA8F2 /* ogl3 */,
 			);
 		};
 /* End PBXProject section */
@@ -134,8 +189,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC54A21F189D2EC600FEA8F2 /* toon.vert in Sources */,
 				EC54A1F8189D153A00FEA8F2 /* textfile.cpp in Sources */,
+				EC54A21E189D2EC100FEA8F2 /* toon2.frag in Sources */,
 				EC54A1F7189D153A00FEA8F2 /* ogl.cpp in Sources */,
+				EC54A220189D2ECE00FEA8F2 /* toon.frag in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A20A189D2DB100FEA8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A21B189D2DFB00FEA8F2 /* ogl3.cpp in Sources */,
+				EC54A20B189D2DB100FEA8F2 /* textfile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +303,32 @@
 			};
 			name = Release;
 		};
+		EC54A216189D2DB100FEA8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = ogl3;
+			};
+			name = Debug;
+		};
+		EC54A217189D2DB100FEA8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = ogl3;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -248,13 +341,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC54A1EC189D150900FEA8F2 /* Build configuration list for PBXNativeTarget "glutglsl" */ = {
+		EC54A1EC189D150900FEA8F2 /* Build configuration list for PBXNativeTarget "ogl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC54A1ED189D150900FEA8F2 /* Debug */,
 				EC54A1EE189D150900FEA8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		EC54A215189D2DB100FEA8F2 /* Build configuration list for PBXNativeTarget "ogl3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54A216189D2DB100FEA8F2 /* Debug */,
+				EC54A217189D2DB100FEA8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
