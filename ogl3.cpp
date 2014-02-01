@@ -122,7 +122,7 @@ void printProgramInfoLog(GLuint obj)
 
 void setShaders() {
 
-	char *vs = NULL,*fs = NULL ,*fs2 = NULL;
+	char *vs = NULL,*fs = NULL;
 
 	v = glCreateShader(GL_VERTEX_SHADER);
 	f = glCreateShader(GL_FRAGMENT_SHADER);
