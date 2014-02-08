@@ -12,8 +12,11 @@ If you use other location, you'll have to add <code>libGLEW.a</code> from the co
 Currently the following targets are included:
 
 * setup - from the section 'Setup for GLSL – Example'
-* uniform - from the section 'Uniform Variables'
-* attribute - from the section 'Attribute Variables'
+* uniform - section 'Uniform Variables'
+* attribute - section 'Attribute Variables'
 * attribute_array - also from the section 'Attribute Variables'
+* hello_world -  section 'Hello World in GLSL'
+* color - section 'Color Shader'
+
 
 Only minor changes where made to the original source, essentialy the GLUT imports where changed to use the GLUT Framework in OSX, and some warnings where fixed. Some file names where changes to avoid colision between examples.
