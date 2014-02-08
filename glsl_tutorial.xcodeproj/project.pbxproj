@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC54A1F7189D153A00FEA8F2 /* ogl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F1189D153A00FEA8F2 /* ogl.cpp */; };
+		EC54A1F7189D153A00FEA8F2 /* setup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F1189D153A00FEA8F2 /* setup.cpp */; };
 		EC54A1F8189D153A00FEA8F2 /* textfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F2189D153A00FEA8F2 /* textfile.cpp */; };
 		EC54A1FD189D166700FEA8F2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FC189D166700FEA8F2 /* GLUT.framework */; };
 		EC54A1FF189D174100FEA8F2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FE189D174100FEA8F2 /* OpenGL.framework */; };
@@ -20,11 +20,39 @@
 		EC54A20F189D2DB100FEA8F2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FC189D166700FEA8F2 /* GLUT.framework */; };
 		EC54A210189D2DB100FEA8F2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A207189D1D8600FEA8F2 /* libGLEW.a */; };
 		EC54A213189D2DB100FEA8F2 /* toon.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A1F5189D153A00FEA8F2 /* toon.vert */; };
-		EC54A21B189D2DFB00FEA8F2 /* ogl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A219189D2DFB00FEA8F2 /* ogl3.cpp */; };
+		EC54A21B189D2DFB00FEA8F2 /* uniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A219189D2DFB00FEA8F2 /* uniform.cpp */; };
 		EC54A21D189D2E4800FEA8F2 /* toon3.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A21A189D2DFB00FEA8F2 /* toon3.frag */; };
 		EC54A21E189D2EC100FEA8F2 /* toon2.frag in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F6189D153A00FEA8F2 /* toon2.frag */; };
 		EC54A21F189D2EC600FEA8F2 /* toon.vert in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F5189D153A00FEA8F2 /* toon.vert */; };
 		EC54A220189D2ECE00FEA8F2 /* toon.frag in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F4189D153A00FEA8F2 /* toon.frag */; };
+		EC54A22818A6685D00FEA8F2 /* textfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F2189D153A00FEA8F2 /* textfile.cpp */; };
+		EC54A22A18A6685D00FEA8F2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FE189D174100FEA8F2 /* OpenGL.framework */; };
+		EC54A22B18A6685D00FEA8F2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FC189D166700FEA8F2 /* GLUT.framework */; };
+		EC54A22C18A6685D00FEA8F2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A207189D1D8600FEA8F2 /* libGLEW.a */; };
+		EC54A23718A6687700FEA8F2 /* attribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A23418A6687700FEA8F2 /* attribute.cpp */; };
+		EC54A23A18A6688800FEA8F2 /* height.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A23518A6687700FEA8F2 /* height.frag */; };
+		EC54A23B18A6689300FEA8F2 /* height.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A23618A6687700FEA8F2 /* height.vert */; };
+		EC54A24018A66ABB00FEA8F2 /* textfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F2189D153A00FEA8F2 /* textfile.cpp */; };
+		EC54A24218A66ABB00FEA8F2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FE189D174100FEA8F2 /* OpenGL.framework */; };
+		EC54A24318A66ABB00FEA8F2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FC189D166700FEA8F2 /* GLUT.framework */; };
+		EC54A24418A66ABB00FEA8F2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A207189D1D8600FEA8F2 /* libGLEW.a */; };
+		EC54A24618A66ABB00FEA8F2 /* height.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A23518A6687700FEA8F2 /* height.frag */; };
+		EC54A24718A66ABB00FEA8F2 /* height.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A23618A6687700FEA8F2 /* height.vert */; };
+		EC54A24F18A66CD200FEA8F2 /* attribute_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A24E18A66CD200FEA8F2 /* attribute_array.cpp */; };
+		EC54A25418A6714300FEA8F2 /* textfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F2189D153A00FEA8F2 /* textfile.cpp */; };
+		EC54A25618A6714300FEA8F2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FE189D174100FEA8F2 /* OpenGL.framework */; };
+		EC54A25718A6714300FEA8F2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FC189D166700FEA8F2 /* GLUT.framework */; };
+		EC54A25818A6714300FEA8F2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A207189D1D8600FEA8F2 /* libGLEW.a */; };
+		EC54A26518A6715A00FEA8F2 /* hello_world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A26218A6715A00FEA8F2 /* hello_world.cpp */; };
+		EC54A26618A671E400FEA8F2 /* minimal.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A26018A6715A00FEA8F2 /* minimal.frag */; };
+		EC54A26718A671E600FEA8F2 /* minimal.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A26118A6715A00FEA8F2 /* minimal.vert */; };
+		EC54A26C18A6738900FEA8F2 /* textfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F2189D153A00FEA8F2 /* textfile.cpp */; };
+		EC54A26E18A6738900FEA8F2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FE189D174100FEA8F2 /* OpenGL.framework */; };
+		EC54A26F18A6738900FEA8F2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FC189D166700FEA8F2 /* GLUT.framework */; };
+		EC54A27018A6738900FEA8F2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A207189D1D8600FEA8F2 /* libGLEW.a */; };
+		EC54A27D18A673B400FEA8F2 /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A27A18A673B400FEA8F2 /* color.cpp */; };
+		EC54A27E18A673CF00FEA8F2 /* color.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A27818A673B400FEA8F2 /* color.frag */; };
+		EC54A27F18A673D100FEA8F2 /* color.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A27918A673B400FEA8F2 /* color.vert */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,11 +79,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC54A22D18A6685D00FEA8F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				EC54A23A18A6688800FEA8F2 /* height.frag in CopyFiles */,
+				EC54A23B18A6689300FEA8F2 /* height.vert in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A24518A66ABB00FEA8F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				EC54A24618A66ABB00FEA8F2 /* height.frag in CopyFiles */,
+				EC54A24718A66ABB00FEA8F2 /* height.vert in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A25918A6714300FEA8F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				EC54A26618A671E400FEA8F2 /* minimal.frag in CopyFiles */,
+				EC54A26718A671E600FEA8F2 /* minimal.vert in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A27118A6738900FEA8F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				EC54A27E18A673CF00FEA8F2 /* color.frag in CopyFiles */,
+				EC54A27F18A673D100FEA8F2 /* color.vert in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EC54A1E3189D150900FEA8F2 /* glutglsl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = glutglsl; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC54A1F1189D153A00FEA8F2 /* ogl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ogl.cpp; sourceTree = "<group>"; };
+		EC54A1E3189D150900FEA8F2 /* glutglsl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = glutglsl; path = ogl; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A1F1189D153A00FEA8F2 /* setup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = setup.cpp; sourceTree = "<group>"; };
 		EC54A1F2189D153A00FEA8F2 /* textfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = textfile.cpp; sourceTree = "<group>"; };
 		EC54A1F3189D153A00FEA8F2 /* textfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textfile.h; sourceTree = "<group>"; };
 		EC54A1F4189D153A00FEA8F2 /* toon.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = toon.frag; sourceTree = "<group>"; };
@@ -64,9 +136,23 @@
 		EC54A1FC189D166700FEA8F2 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		EC54A1FE189D174100FEA8F2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		EC54A207189D1D8600FEA8F2 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../../../../../usr/local/lib/libGLEW.a; sourceTree = "<group>"; };
-		EC54A218189D2DB100FEA8F2 /* ogl3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ogl3; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC54A219189D2DFB00FEA8F2 /* ogl3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ogl3.cpp; sourceTree = "<group>"; };
+		EC54A218189D2DB100FEA8F2 /* uniform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = uniform; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A219189D2DFB00FEA8F2 /* uniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uniform.cpp; sourceTree = "<group>"; };
 		EC54A21A189D2DFB00FEA8F2 /* toon3.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = toon3.frag; sourceTree = "<group>"; };
+		EC54A23318A6685D00FEA8F2 /* uniform copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "uniform copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A23418A6687700FEA8F2 /* attribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = attribute.cpp; sourceTree = "<group>"; };
+		EC54A23518A6687700FEA8F2 /* height.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = height.frag; sourceTree = "<group>"; };
+		EC54A23618A6687700FEA8F2 /* height.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = height.vert; sourceTree = "<group>"; };
+		EC54A24B18A66ABB00FEA8F2 /* attribute copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "attribute copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A24E18A66CD200FEA8F2 /* attribute_array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = attribute_array.cpp; sourceTree = "<group>"; };
+		EC54A25F18A6714300FEA8F2 /* attribute_array copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "attribute_array copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A26018A6715A00FEA8F2 /* minimal.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = minimal.frag; sourceTree = "<group>"; };
+		EC54A26118A6715A00FEA8F2 /* minimal.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = minimal.vert; sourceTree = "<group>"; };
+		EC54A26218A6715A00FEA8F2 /* hello_world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hello_world.cpp; sourceTree = "<group>"; };
+		EC54A27718A6738900FEA8F2 /* hello_world copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hello_world copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A27818A673B400FEA8F2 /* color.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = color.frag; sourceTree = "<group>"; };
+		EC54A27918A673B400FEA8F2 /* color.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = color.vert; sourceTree = "<group>"; };
+		EC54A27A18A673B400FEA8F2 /* color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,23 +176,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC54A22918A6685D00FEA8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A22A18A6685D00FEA8F2 /* OpenGL.framework in Frameworks */,
+				EC54A22B18A6685D00FEA8F2 /* GLUT.framework in Frameworks */,
+				EC54A22C18A6685D00FEA8F2 /* libGLEW.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A24118A66ABB00FEA8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A24218A66ABB00FEA8F2 /* OpenGL.framework in Frameworks */,
+				EC54A24318A66ABB00FEA8F2 /* GLUT.framework in Frameworks */,
+				EC54A24418A66ABB00FEA8F2 /* libGLEW.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A25518A6714300FEA8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A25618A6714300FEA8F2 /* OpenGL.framework in Frameworks */,
+				EC54A25718A6714300FEA8F2 /* GLUT.framework in Frameworks */,
+				EC54A25818A6714300FEA8F2 /* libGLEW.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A26D18A6738900FEA8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A26E18A6738900FEA8F2 /* OpenGL.framework in Frameworks */,
+				EC54A26F18A6738900FEA8F2 /* GLUT.framework in Frameworks */,
+				EC54A27018A6738900FEA8F2 /* libGLEW.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		EC54A1DA189D150900FEA8F2 = {
 			isa = PBXGroup;
 			children = (
+				EC54A22218A6644400FEA8F2 /* 00 Common */,
+				EC54A22318A6648600FEA8F2 /* 01 Setup for GLSL */,
+				EC54A22118A6642A00FEA8F2 /* 02 Uniform Variables */,
+				EC54A22418A6680C00FEA8F2 /* 03 Attibute Variables */,
+				EC54A23C18A66A8800FEA8F2 /* 04 Attibute Arrays */,
+				EC54A25018A6710900FEA8F2 /* 05 Hello World Shader */,
+				EC54A26818A6736D00FEA8F2 /* 06 Color Shader */,
 				EC54A207189D1D8600FEA8F2 /* libGLEW.a */,
 				EC54A1FE189D174100FEA8F2 /* OpenGL.framework */,
 				EC54A1FC189D166700FEA8F2 /* GLUT.framework */,
-				EC54A1F1189D153A00FEA8F2 /* ogl.cpp */,
-				EC54A219189D2DFB00FEA8F2 /* ogl3.cpp */,
-				EC54A1F2189D153A00FEA8F2 /* textfile.cpp */,
-				EC54A1F3189D153A00FEA8F2 /* textfile.h */,
-				EC54A1F4189D153A00FEA8F2 /* toon.frag */,
-				EC54A1F5189D153A00FEA8F2 /* toon.vert */,
-				EC54A1F6189D153A00FEA8F2 /* toon2.frag */,
-				EC54A21A189D2DFB00FEA8F2 /* toon3.frag */,
 				EC54A1E4189D150900FEA8F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,17 +240,88 @@
 			isa = PBXGroup;
 			children = (
 				EC54A1E3189D150900FEA8F2 /* glutglsl */,
-				EC54A218189D2DB100FEA8F2 /* ogl3 */,
+				EC54A218189D2DB100FEA8F2 /* uniform */,
+				EC54A23318A6685D00FEA8F2 /* uniform copy */,
+				EC54A24B18A66ABB00FEA8F2 /* attribute copy */,
+				EC54A25F18A6714300FEA8F2 /* attribute_array copy */,
+				EC54A27718A6738900FEA8F2 /* hello_world copy */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EC54A22118A6642A00FEA8F2 /* 02 Uniform Variables */ = {
+			isa = PBXGroup;
+			children = (
+				EC54A219189D2DFB00FEA8F2 /* uniform.cpp */,
+				EC54A21A189D2DFB00FEA8F2 /* toon3.frag */,
+			);
+			name = "02 Uniform Variables";
+			sourceTree = "<group>";
+		};
+		EC54A22218A6644400FEA8F2 /* 00 Common */ = {
+			isa = PBXGroup;
+			children = (
+				EC54A1F4189D153A00FEA8F2 /* toon.frag */,
+				EC54A1F5189D153A00FEA8F2 /* toon.vert */,
+				EC54A1F2189D153A00FEA8F2 /* textfile.cpp */,
+				EC54A1F3189D153A00FEA8F2 /* textfile.h */,
+			);
+			name = "00 Common";
+			sourceTree = "<group>";
+		};
+		EC54A22318A6648600FEA8F2 /* 01 Setup for GLSL */ = {
+			isa = PBXGroup;
+			children = (
+				EC54A1F6189D153A00FEA8F2 /* toon2.frag */,
+				EC54A1F1189D153A00FEA8F2 /* setup.cpp */,
+			);
+			name = "01 Setup for GLSL";
+			sourceTree = "<group>";
+		};
+		EC54A22418A6680C00FEA8F2 /* 03 Attibute Variables */ = {
+			isa = PBXGroup;
+			children = (
+				EC54A23418A6687700FEA8F2 /* attribute.cpp */,
+				EC54A23518A6687700FEA8F2 /* height.frag */,
+				EC54A23618A6687700FEA8F2 /* height.vert */,
+			);
+			name = "03 Attibute Variables";
+			sourceTree = "<group>";
+		};
+		EC54A23C18A66A8800FEA8F2 /* 04 Attibute Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				EC54A24E18A66CD200FEA8F2 /* attribute_array.cpp */,
+			);
+			name = "04 Attibute Arrays";
+			sourceTree = "<group>";
+		};
+		EC54A25018A6710900FEA8F2 /* 05 Hello World Shader */ = {
+			isa = PBXGroup;
+			children = (
+				EC54A26018A6715A00FEA8F2 /* minimal.frag */,
+				EC54A26118A6715A00FEA8F2 /* minimal.vert */,
+				EC54A26218A6715A00FEA8F2 /* hello_world.cpp */,
+			);
+			name = "05 Hello World Shader";
+			sourceTree = "<group>";
+		};
+		EC54A26818A6736D00FEA8F2 /* 06 Color Shader */ = {
+			isa = PBXGroup;
+			children = (
+				EC54A27818A673B400FEA8F2 /* color.frag */,
+				EC54A27918A673B400FEA8F2 /* color.vert */,
+				EC54A27A18A673B400FEA8F2 /* color.cpp */,
+			);
+			name = "06 Color Shader";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC54A1E2189D150900FEA8F2 /* ogl */ = {
+		EC54A1E2189D150900FEA8F2 /* setup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC54A1EC189D150900FEA8F2 /* Build configuration list for PBXNativeTarget "ogl" */;
+			buildConfigurationList = EC54A1EC189D150900FEA8F2 /* Build configuration list for PBXNativeTarget "setup" */;
 			buildPhases = (
 				EC54A1DF189D150900FEA8F2 /* Sources */,
 				EC54A1E0189D150900FEA8F2 /* Frameworks */,
@@ -135,14 +331,14 @@
 			);
 			dependencies = (
 			);
-			name = ogl;
+			name = setup;
 			productName = glutglsl;
 			productReference = EC54A1E3189D150900FEA8F2 /* glutglsl */;
 			productType = "com.apple.product-type.tool";
 		};
-		EC54A209189D2DB100FEA8F2 /* ogl3 */ = {
+		EC54A209189D2DB100FEA8F2 /* uniform */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC54A215189D2DB100FEA8F2 /* Build configuration list for PBXNativeTarget "ogl3" */;
+			buildConfigurationList = EC54A215189D2DB100FEA8F2 /* Build configuration list for PBXNativeTarget "uniform" */;
 			buildPhases = (
 				EC54A20A189D2DB100FEA8F2 /* Sources */,
 				EC54A20D189D2DB100FEA8F2 /* Frameworks */,
@@ -152,9 +348,77 @@
 			);
 			dependencies = (
 			);
-			name = ogl3;
+			name = uniform;
 			productName = glutglsl;
-			productReference = EC54A218189D2DB100FEA8F2 /* ogl3 */;
+			productReference = EC54A218189D2DB100FEA8F2 /* uniform */;
+			productType = "com.apple.product-type.tool";
+		};
+		EC54A22518A6685D00FEA8F2 /* attribute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC54A23018A6685D00FEA8F2 /* Build configuration list for PBXNativeTarget "attribute" */;
+			buildPhases = (
+				EC54A22618A6685D00FEA8F2 /* Sources */,
+				EC54A22918A6685D00FEA8F2 /* Frameworks */,
+				EC54A22D18A6685D00FEA8F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = attribute;
+			productName = glutglsl;
+			productReference = EC54A23318A6685D00FEA8F2 /* uniform copy */;
+			productType = "com.apple.product-type.tool";
+		};
+		EC54A23D18A66ABB00FEA8F2 /* attribute_array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC54A24818A66ABB00FEA8F2 /* Build configuration list for PBXNativeTarget "attribute_array" */;
+			buildPhases = (
+				EC54A23E18A66ABB00FEA8F2 /* Sources */,
+				EC54A24118A66ABB00FEA8F2 /* Frameworks */,
+				EC54A24518A66ABB00FEA8F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = attribute_array;
+			productName = glutglsl;
+			productReference = EC54A24B18A66ABB00FEA8F2 /* attribute copy */;
+			productType = "com.apple.product-type.tool";
+		};
+		EC54A25118A6714300FEA8F2 /* hello_world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC54A25C18A6714300FEA8F2 /* Build configuration list for PBXNativeTarget "hello_world" */;
+			buildPhases = (
+				EC54A25218A6714300FEA8F2 /* Sources */,
+				EC54A25518A6714300FEA8F2 /* Frameworks */,
+				EC54A25918A6714300FEA8F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_world;
+			productName = glutglsl;
+			productReference = EC54A25F18A6714300FEA8F2 /* attribute_array copy */;
+			productType = "com.apple.product-type.tool";
+		};
+		EC54A26918A6738900FEA8F2 /* color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC54A27418A6738900FEA8F2 /* Build configuration list for PBXNativeTarget "color" */;
+			buildPhases = (
+				EC54A26A18A6738900FEA8F2 /* Sources */,
+				EC54A26D18A6738900FEA8F2 /* Frameworks */,
+				EC54A27118A6738900FEA8F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = color;
+			productName = glutglsl;
+			productReference = EC54A27718A6738900FEA8F2 /* hello_world copy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +430,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Heitor Ferreira";
 			};
-			buildConfigurationList = EC54A1DE189D150900FEA8F2 /* Build configuration list for PBXProject "glutglsl" */;
+			buildConfigurationList = EC54A1DE189D150900FEA8F2 /* Build configuration list for PBXProject "glsl_tutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,8 +442,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC54A1E2189D150900FEA8F2 /* ogl */,
-				EC54A209189D2DB100FEA8F2 /* ogl3 */,
+				EC54A1E2189D150900FEA8F2 /* setup */,
+				EC54A209189D2DB100FEA8F2 /* uniform */,
+				EC54A22518A6685D00FEA8F2 /* attribute */,
+				EC54A23D18A66ABB00FEA8F2 /* attribute_array */,
+				EC54A25118A6714300FEA8F2 /* hello_world */,
+				EC54A26918A6738900FEA8F2 /* color */,
 			);
 		};
 /* End PBXProject section */
@@ -192,7 +460,7 @@
 				EC54A21F189D2EC600FEA8F2 /* toon.vert in Sources */,
 				EC54A1F8189D153A00FEA8F2 /* textfile.cpp in Sources */,
 				EC54A21E189D2EC100FEA8F2 /* toon2.frag in Sources */,
-				EC54A1F7189D153A00FEA8F2 /* ogl.cpp in Sources */,
+				EC54A1F7189D153A00FEA8F2 /* setup.cpp in Sources */,
 				EC54A220189D2ECE00FEA8F2 /* toon.frag in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,8 +469,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC54A21B189D2DFB00FEA8F2 /* ogl3.cpp in Sources */,
+				EC54A21B189D2DFB00FEA8F2 /* uniform.cpp in Sources */,
 				EC54A20B189D2DB100FEA8F2 /* textfile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A22618A6685D00FEA8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A23718A6687700FEA8F2 /* attribute.cpp in Sources */,
+				EC54A22818A6685D00FEA8F2 /* textfile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A23E18A66ABB00FEA8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A24F18A66CD200FEA8F2 /* attribute_array.cpp in Sources */,
+				EC54A24018A66ABB00FEA8F2 /* textfile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A25218A6714300FEA8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A26518A6715A00FEA8F2 /* hello_world.cpp in Sources */,
+				EC54A25418A6714300FEA8F2 /* textfile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A26A18A6738900FEA8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A26C18A6738900FEA8F2 /* textfile.cpp in Sources */,
+				EC54A27D18A673B400FEA8F2 /* color.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +616,7 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = ogl3;
+				PRODUCT_NAME = uniform;
 			};
 			name = Debug;
 		};
@@ -325,14 +629,118 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = ogl3;
+				PRODUCT_NAME = uniform;
+			};
+			name = Release;
+		};
+		EC54A23118A6685D00FEA8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "uniform copy";
+			};
+			name = Debug;
+		};
+		EC54A23218A6685D00FEA8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "uniform copy";
+			};
+			name = Release;
+		};
+		EC54A24918A66ABB00FEA8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "attribute copy";
+			};
+			name = Debug;
+		};
+		EC54A24A18A66ABB00FEA8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "attribute copy";
+			};
+			name = Release;
+		};
+		EC54A25D18A6714300FEA8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "attribute_array copy";
+			};
+			name = Debug;
+		};
+		EC54A25E18A6714300FEA8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "attribute_array copy";
+			};
+			name = Release;
+		};
+		EC54A27518A6738900FEA8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "hello_world copy";
+			};
+			name = Debug;
+		};
+		EC54A27618A6738900FEA8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "hello_world copy";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC54A1DE189D150900FEA8F2 /* Build configuration list for PBXProject "glutglsl" */ = {
+		EC54A1DE189D150900FEA8F2 /* Build configuration list for PBXProject "glsl_tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC54A1EA189D150900FEA8F2 /* Debug */,
@@ -341,19 +749,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC54A1EC189D150900FEA8F2 /* Build configuration list for PBXNativeTarget "ogl" */ = {
+		EC54A1EC189D150900FEA8F2 /* Build configuration list for PBXNativeTarget "setup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC54A1ED189D150900FEA8F2 /* Debug */,
 				EC54A1EE189D150900FEA8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EC54A215189D2DB100FEA8F2 /* Build configuration list for PBXNativeTarget "ogl3" */ = {
+		EC54A215189D2DB100FEA8F2 /* Build configuration list for PBXNativeTarget "uniform" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC54A216189D2DB100FEA8F2 /* Debug */,
 				EC54A217189D2DB100FEA8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC54A23018A6685D00FEA8F2 /* Build configuration list for PBXNativeTarget "attribute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54A23118A6685D00FEA8F2 /* Debug */,
+				EC54A23218A6685D00FEA8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC54A24818A66ABB00FEA8F2 /* Build configuration list for PBXNativeTarget "attribute_array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54A24918A66ABB00FEA8F2 /* Debug */,
+				EC54A24A18A66ABB00FEA8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC54A25C18A6714300FEA8F2 /* Build configuration list for PBXNativeTarget "hello_world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54A25D18A6714300FEA8F2 /* Debug */,
+				EC54A25E18A6714300FEA8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC54A27418A6738900FEA8F2 /* Build configuration list for PBXNativeTarget "color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54A27518A6738900FEA8F2 /* Debug */,
+				EC54A27618A6738900FEA8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

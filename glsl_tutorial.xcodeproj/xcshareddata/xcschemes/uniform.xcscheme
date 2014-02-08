@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC54A209189D2DB100FEA8F2"
-            BuildableName = "ogl copy"
-            BlueprintName = "ogl3"
-            ReferencedContainer = "container:glutglsl.xcodeproj">
+            BuildableName = "uniform"
+            BlueprintName = "uniform"
+            ReferencedContainer = "container:glsl_tutorial.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC54A209189D2DB100FEA8F2"
-            BuildableName = "ogl copy"
-            BlueprintName = "ogl3"
-            ReferencedContainer = "container:glutglsl.xcodeproj">
+            BuildableName = "uniform"
+            BlueprintName = "uniform"
+            ReferencedContainer = "container:glsl_tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC54A1E2189D150900FEA8F2"
-               BuildableName = "ogl"
-               BlueprintName = "ogl"
-               ReferencedContainer = "container:glutglsl.xcodeproj">
+               BlueprintIdentifier = "EC54A23D18A66ABB00FEA8F2"
+               BuildableName = "attribute copy"
+               BlueprintName = "attribute_array"
+               ReferencedContainer = "container:glsl_tutorial.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC54A1E2189D150900FEA8F2"
-            BuildableName = "ogl"
-            BlueprintName = "ogl"
-            ReferencedContainer = "container:glutglsl.xcodeproj">
+            BlueprintIdentifier = "EC54A23D18A66ABB00FEA8F2"
+            BuildableName = "attribute copy"
+            BlueprintName = "attribute_array"
+            ReferencedContainer = "container:glsl_tutorial.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC54A1E2189D150900FEA8F2"
-            BuildableName = "ogl"
-            BlueprintName = "ogl"
-            ReferencedContainer = "container:glutglsl.xcodeproj">
+            BlueprintIdentifier = "EC54A23D18A66ABB00FEA8F2"
+            BuildableName = "attribute copy"
+            BlueprintName = "attribute_array"
+            ReferencedContainer = "container:glsl_tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC54A1E2189D150900FEA8F2"
-            BuildableName = "ogl"
-            BlueprintName = "ogl"
-            ReferencedContainer = "container:glutglsl.xcodeproj">
+            BlueprintIdentifier = "EC54A23D18A66ABB00FEA8F2"
+            BuildableName = "attribute copy"
+            BlueprintName = "attribute_array"
+            ReferencedContainer = "container:glsl_tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
