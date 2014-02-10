@@ -17,6 +17,7 @@ Currently the following targets are included:
 * attribute_array - also from the section 'Attribute Variables'
 * hello_world -  section 'Hello World in GLSL'
 * color - section 'Color Shader'
+* flatten - section 'Flatten Shader'
 
 
 Only minor changes where made to the original source, essentialy the GLUT imports where changed to use the GLUT Framework in OSX, and some warnings where fixed. Some file names where changes to avoid colision between examples.

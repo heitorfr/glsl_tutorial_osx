@@ -53,6 +53,13 @@
 		EC54A27D18A673B400FEA8F2 /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A27A18A673B400FEA8F2 /* color.cpp */; };
 		EC54A27E18A673CF00FEA8F2 /* color.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A27818A673B400FEA8F2 /* color.frag */; };
 		EC54A27F18A673D100FEA8F2 /* color.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A27918A673B400FEA8F2 /* color.vert */; };
+		EC54A28218A9717E00FEA8F2 /* textfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A1F2189D153A00FEA8F2 /* textfile.cpp */; };
+		EC54A28518A9717E00FEA8F2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FE189D174100FEA8F2 /* OpenGL.framework */; };
+		EC54A28618A9717E00FEA8F2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A1FC189D166700FEA8F2 /* GLUT.framework */; };
+		EC54A28718A9717E00FEA8F2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A207189D1D8600FEA8F2 /* libGLEW.a */; };
+		EC54A29318A971D800FEA8F2 /* flatten.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC54A29018A971D800FEA8F2 /* flatten.cpp */; };
+		EC54A29618A9725600FEA8F2 /* flatten.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A29118A971D800FEA8F2 /* flatten.frag */; };
+		EC54A29718A9725800FEA8F2 /* flatten.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC54A29218A971D800FEA8F2 /* flatten.vert */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -123,6 +130,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC54A28818A9717E00FEA8F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				EC54A29618A9725600FEA8F2 /* flatten.frag in CopyFiles */,
+				EC54A29718A9725800FEA8F2 /* flatten.vert in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -139,20 +157,24 @@
 		EC54A218189D2DB100FEA8F2 /* uniform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = uniform; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC54A219189D2DFB00FEA8F2 /* uniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uniform.cpp; path = "02 Uniform Variables/uniform.cpp"; sourceTree = "<group>"; };
 		EC54A21A189D2DFB00FEA8F2 /* toon3.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = toon3.frag; path = "02 Uniform Variables/toon3.frag"; sourceTree = "<group>"; };
-		EC54A23318A6685D00FEA8F2 /* uniform copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "uniform copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A23318A6685D00FEA8F2 /* attribute */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = attribute; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC54A23418A6687700FEA8F2 /* attribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = attribute.cpp; path = "03 Attribute Variables/attribute.cpp"; sourceTree = "<group>"; };
 		EC54A23518A6687700FEA8F2 /* height.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = height.frag; path = "03 Attribute Variables/height.frag"; sourceTree = "<group>"; };
 		EC54A23618A6687700FEA8F2 /* height.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = height.vert; path = "03 Attribute Variables/height.vert"; sourceTree = "<group>"; };
-		EC54A24B18A66ABB00FEA8F2 /* attribute copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "attribute copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A24B18A66ABB00FEA8F2 /* attribute_array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = attribute_array; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC54A24E18A66CD200FEA8F2 /* attribute_array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = attribute_array.cpp; path = "04 Attribute Arrays/attribute_array.cpp"; sourceTree = "<group>"; };
-		EC54A25F18A6714300FEA8F2 /* attribute_array copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "attribute_array copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A25F18A6714300FEA8F2 /* hello_world */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_world; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC54A26018A6715A00FEA8F2 /* minimal.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = minimal.frag; path = "05 Hello World Shadder/minimal.frag"; sourceTree = "<group>"; };
 		EC54A26118A6715A00FEA8F2 /* minimal.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = minimal.vert; path = "05 Hello World Shadder/minimal.vert"; sourceTree = "<group>"; };
 		EC54A26218A6715A00FEA8F2 /* hello_world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hello_world.cpp; path = "05 Hello World Shadder/hello_world.cpp"; sourceTree = "<group>"; };
-		EC54A27718A6738900FEA8F2 /* hello_world copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hello_world copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A27718A6738900FEA8F2 /* color */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = color; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC54A27818A673B400FEA8F2 /* color.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = color.frag; path = "06 Color Shader/color.frag"; sourceTree = "<group>"; };
 		EC54A27918A673B400FEA8F2 /* color.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = color.vert; path = "06 Color Shader/color.vert"; sourceTree = "<group>"; };
 		EC54A27A18A673B400FEA8F2 /* color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = color.cpp; path = "06 Color Shader/color.cpp"; sourceTree = "<group>"; };
+		EC54A28E18A9717E00FEA8F2 /* flaten */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = flaten; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54A29018A971D800FEA8F2 /* flatten.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flatten.cpp; sourceTree = "<group>"; };
+		EC54A29118A971D800FEA8F2 /* flatten.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = flatten.frag; sourceTree = "<group>"; };
+		EC54A29218A971D800FEA8F2 /* flatten.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = flatten.vert; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +238,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC54A28418A9717E00FEA8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A28518A9717E00FEA8F2 /* OpenGL.framework in Frameworks */,
+				EC54A28618A9717E00FEA8F2 /* GLUT.framework in Frameworks */,
+				EC54A28718A9717E00FEA8F2 /* libGLEW.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -229,6 +261,7 @@
 				EC54A23C18A66A8800FEA8F2 /* 04 Attibute Arrays */,
 				EC54A25018A6710900FEA8F2 /* 05 Hello World Shader */,
 				EC54A26818A6736D00FEA8F2 /* 06 Color Shader */,
+				EC54A28F18A971D800FEA8F2 /* 07 Flatten Shader */,
 				EC54A207189D1D8600FEA8F2 /* libGLEW.a */,
 				EC54A1FE189D174100FEA8F2 /* OpenGL.framework */,
 				EC54A1FC189D166700FEA8F2 /* GLUT.framework */,
@@ -241,10 +274,11 @@
 			children = (
 				EC54A1E3189D150900FEA8F2 /* glutglsl */,
 				EC54A218189D2DB100FEA8F2 /* uniform */,
-				EC54A23318A6685D00FEA8F2 /* uniform copy */,
-				EC54A24B18A66ABB00FEA8F2 /* attribute copy */,
-				EC54A25F18A6714300FEA8F2 /* attribute_array copy */,
-				EC54A27718A6738900FEA8F2 /* hello_world copy */,
+				EC54A23318A6685D00FEA8F2 /* attribute */,
+				EC54A24B18A66ABB00FEA8F2 /* attribute_array */,
+				EC54A25F18A6714300FEA8F2 /* hello_world */,
+				EC54A27718A6738900FEA8F2 /* color */,
+				EC54A28E18A9717E00FEA8F2 /* flaten */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -316,6 +350,16 @@
 			name = "06 Color Shader";
 			sourceTree = "<group>";
 		};
+		EC54A28F18A971D800FEA8F2 /* 07 Flatten Shader */ = {
+			isa = PBXGroup;
+			children = (
+				EC54A29018A971D800FEA8F2 /* flatten.cpp */,
+				EC54A29118A971D800FEA8F2 /* flatten.frag */,
+				EC54A29218A971D800FEA8F2 /* flatten.vert */,
+			);
+			path = "07 Flatten Shader";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,7 +411,7 @@
 			);
 			name = attribute;
 			productName = glutglsl;
-			productReference = EC54A23318A6685D00FEA8F2 /* uniform copy */;
+			productReference = EC54A23318A6685D00FEA8F2 /* attribute */;
 			productType = "com.apple.product-type.tool";
 		};
 		EC54A23D18A66ABB00FEA8F2 /* attribute_array */ = {
@@ -384,7 +428,7 @@
 			);
 			name = attribute_array;
 			productName = glutglsl;
-			productReference = EC54A24B18A66ABB00FEA8F2 /* attribute copy */;
+			productReference = EC54A24B18A66ABB00FEA8F2 /* attribute_array */;
 			productType = "com.apple.product-type.tool";
 		};
 		EC54A25118A6714300FEA8F2 /* hello_world */ = {
@@ -401,7 +445,7 @@
 			);
 			name = hello_world;
 			productName = glutglsl;
-			productReference = EC54A25F18A6714300FEA8F2 /* attribute_array copy */;
+			productReference = EC54A25F18A6714300FEA8F2 /* hello_world */;
 			productType = "com.apple.product-type.tool";
 		};
 		EC54A26918A6738900FEA8F2 /* color */ = {
@@ -418,7 +462,24 @@
 			);
 			name = color;
 			productName = glutglsl;
-			productReference = EC54A27718A6738900FEA8F2 /* hello_world copy */;
+			productReference = EC54A27718A6738900FEA8F2 /* color */;
+			productType = "com.apple.product-type.tool";
+		};
+		EC54A28018A9717E00FEA8F2 /* flatten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC54A28B18A9717E00FEA8F2 /* Build configuration list for PBXNativeTarget "flatten" */;
+			buildPhases = (
+				EC54A28118A9717E00FEA8F2 /* Sources */,
+				EC54A28418A9717E00FEA8F2 /* Frameworks */,
+				EC54A28818A9717E00FEA8F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flatten;
+			productName = glutglsl;
+			productReference = EC54A28E18A9717E00FEA8F2 /* flaten */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -448,6 +509,7 @@
 				EC54A23D18A66ABB00FEA8F2 /* attribute_array */,
 				EC54A25118A6714300FEA8F2 /* hello_world */,
 				EC54A26918A6738900FEA8F2 /* color */,
+				EC54A28018A9717E00FEA8F2 /* flatten */,
 			);
 		};
 /* End PBXProject section */
@@ -507,6 +569,15 @@
 			files = (
 				EC54A26C18A6738900FEA8F2 /* textfile.cpp in Sources */,
 				EC54A27D18A673B400FEA8F2 /* color.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54A28118A9717E00FEA8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54A29318A971D800FEA8F2 /* flatten.cpp in Sources */,
+				EC54A28218A9717E00FEA8F2 /* textfile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,7 +713,7 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "uniform copy";
+				PRODUCT_NAME = attribute;
 			};
 			name = Debug;
 		};
@@ -655,7 +726,7 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "uniform copy";
+				PRODUCT_NAME = attribute;
 			};
 			name = Release;
 		};
@@ -668,7 +739,7 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "attribute copy";
+				PRODUCT_NAME = attribute_array;
 			};
 			name = Debug;
 		};
@@ -681,7 +752,7 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "attribute copy";
+				PRODUCT_NAME = attribute_array;
 			};
 			name = Release;
 		};
@@ -694,7 +765,7 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "attribute_array copy";
+				PRODUCT_NAME = hello_world;
 			};
 			name = Debug;
 		};
@@ -707,7 +778,7 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "attribute_array copy";
+				PRODUCT_NAME = hello_world;
 			};
 			name = Release;
 		};
@@ -720,7 +791,7 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "hello_world copy";
+				PRODUCT_NAME = color;
 			};
 			name = Debug;
 		};
@@ -733,7 +804,33 @@
 					/usr/local/include,
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				PRODUCT_NAME = "hello_world copy";
+				PRODUCT_NAME = color;
+			};
+			name = Release;
+		};
+		EC54A28C18A9717E00FEA8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = flaten;
+			};
+			name = Debug;
+		};
+		EC54A28D18A9717E00FEA8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = flaten;
 			};
 			name = Release;
 		};
@@ -799,6 +896,15 @@
 			buildConfigurations = (
 				EC54A27518A6738900FEA8F2 /* Debug */,
 				EC54A27618A6738900FEA8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC54A28B18A9717E00FEA8F2 /* Build configuration list for PBXNativeTarget "flatten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54A28C18A9717E00FEA8F2 /* Debug */,
+				EC54A28D18A9717E00FEA8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

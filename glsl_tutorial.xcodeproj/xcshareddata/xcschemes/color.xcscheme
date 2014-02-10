@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EC54A26918A6738900FEA8F2"
-               BuildableName = "attribute_array copy"
+               BuildableName = "hello_world copy"
                BlueprintName = "color"
                ReferencedContainer = "container:glsl_tutorial.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC54A26918A6738900FEA8F2"
-            BuildableName = "attribute_array copy"
+            BuildableName = "hello_world copy"
             BlueprintName = "color"
             ReferencedContainer = "container:glsl_tutorial.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC54A26918A6738900FEA8F2"
-            BuildableName = "attribute_array copy"
+            BuildableName = "hello_world copy"
             BlueprintName = "color"
             ReferencedContainer = "container:glsl_tutorial.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC54A26918A6738900FEA8F2"
-            BuildableName = "attribute_array copy"
+            BuildableName = "hello_world copy"
             BlueprintName = "color"
             ReferencedContainer = "container:glsl_tutorial.xcodeproj">
          </BuildableReference>
